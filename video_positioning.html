@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video positioning</title>
+    <style>
+        .video{
+
+            top: 0px;
+            left:  0px;
+            bottom: 0px;
+            right: 0px;
+            position: fixed;
+
+        }
+        .text{
+
+            position: absolute;
+            font-size:100px;
+
+            color:transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: rgb(255,249,249) ;
+        }
+        .text:hover{
+
+            background:linear-gradient(to right, blue , green , red, pink);
+
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip:text;
+        }
+        h2{
+
+            margin-top:20%;
+            margin-left:44%;
+            font-family:Arial, Helvetica, sans-serif;
+
+
+        }
+    </style>
+</head>
+<body>
+    <video class="video" src="C:\Users\param\daily tasks\Pexels Videos 1542008.mp4" autoplay loop muted width="100%"></video>
+
+    <h2 class="text">Sky</h2>
+</body>
+</html>
